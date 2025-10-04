@@ -1,116 +1,47 @@
-# 🚀 3D Developer Portfolio
+🚀 Portfólio 3D de Desenvolvedor
+Um portfólio moderno e animado em 3D, desenvolvido com React, Three.js, TailwindCSS e efeitos de movimento — criado para ajudá-lo(a) a se destacar e exibir suas habilidades de forma criativa.
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+✨ Recursos
+🔥 Elementos visuais em 3D com React Three Fiber e Drei
+⚡ Transições suaves e animações baseadas em rolagem usando Framer Motion
+🎨 Interface limpa e responsiva com TailwindCSS
+💌 Formulário de contato funcional utilizando EmailJS
+🧱 Melhorias visuais com componentes do Aceternity UI e Magic UI
+🚀 Desenvolvimento ultrarrápido com Vite
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
 
----
+🛠 Tecnologias Utilizadas
+React
+Biblioteca JavaScript para front-end
+Vite
+Empacotador rápido e ambiente de desenvolvimento
+TailwindCSS
+Framework CSS baseado em utilitários
+React Three Fiber
+Renderização 3D com Three.js no React
+Drei
+Utilitários e abstrações para o R3F
+Framer Motion
+Biblioteca de animações para React
+EmailJS
+Integração de formulários e envio de e-mails
+Aceternity UI
+Componentes personalizados de UI
+Magic UI
+Elementos prontos de UI e recursos visuais extras
 
-## 📚 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
-
----
-
-## ✨ Features
-
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
-
----
-
-## 🛠 Tech Stack
-
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
-
----
-
-## 📁 Project Structure
-
-```bash
+📁 Estrutura do Projeto
 ├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
+│   ├── assets/             # Imagens, texturas e modelos
+│   ├── models/             # Modelo 3D do astronauta
 │   └── vite.svg
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
+│   ├── components/         # Componentes reutilizáveis
+│   ├── constants/          # Dados reutilizáveis
+│   ├── sections/           # Seções do portfólio (Hero, Sobre, etc.)
+│   ├── App.jsx             # Arquivo principal da aplicação
+│   ├── index.css           # Estilos do Tailwind
+│   └── main.jsx            # Ponto de entrada
 ├── tailwind.config.js
 └── vite.config.js
-```
 
----
-
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
-
----
-
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
-
----
-
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
-
----
-
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
-
-- A beautiful Landing Page
-
-- A complete E-commerce site
-
-- A fun App Clone (YouTube, Netflix, etc.)
-
-Or another interactive Portfolio
-
-Let me know!
-
----
-
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
