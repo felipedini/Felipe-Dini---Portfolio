@@ -30,6 +30,9 @@ Magic UI
 Elementos prontos de UI e recursos visuais extras
 
 📁 Estrutura do Projeto
+
+
+
 ├── public/
 │   ├── assets/             # Imagens, texturas e modelos
 │   ├── models/             # Modelo 3D do astronauta
