@@ -1,49 +1,78 @@
-🚀 Portfólio 3D de Desenvolvedor
-Um portfólio moderno, animado e totalmente em 3D, construído com React, Three.js, TailwindCSS e efeitos de movimento — projetado para ajudar você a se destacar e apresentar suas habilidades de forma criativa e impactante.
+# 🚀 3D Developer Portfolio
 
-✨ Recursos
-🔥 Visualizações 3D com React Three Fiber e Drei
-⚡ Transições suaves e animações baseadas em rolagem com Framer Motion
-🎨 Interface limpa, moderna e responsiva usando TailwindCSS
-💌 Formulário de contato funcional integrado com EmailJS
-🧱 Componentes visuais avançados com Aceternity UI e Magic UI
-🚀 Ambiente de desenvolvimento ultrarrápido com Vite
+A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
 
-🛠 Tecnologias Utilizadas
-React
-Biblioteca JavaScript para front-end
-Vite
-Empacotador rápido e ambiente de desenvolvimento
-TailwindCSS
-Framework CSS baseado em utilitários
-React Three Fiber
-Renderização 3D com Three.js no React
-Drei
-Utilitários e abstrações para o R3F
-Framer Motion
-Biblioteca de animações para React
-EmailJS
-Integração de formulários e envio de e-mails
-Aceternity UI
-Componentes personalizados de UI
-Magic UI
-Elementos prontos de UI e recursos visuais extras
+---
+## ✨ Features
 
-📁 Estrutura do Projeto
+- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
+- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
+- 🎨 Clean, responsive UI with **TailwindCSS**
+- 💌 Working contact form using **EmailJS**
+- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
+- 🚀 Lightning-fast development with **Vite**
 
+---
 
+## 🛠 Tech Stack
 
+| Tech              | Description                           |
+|-------------------|---------------------------------------|
+| React             | Front-end JavaScript library          |
+| Vite              | Fast bundler and dev environment      |
+| TailwindCSS       | Utility-first CSS framework           |
+| React Three Fiber | 3D rendering with Three.js in React   |
+| Drei              | Helpers and abstractions for R3F      |
+| Framer Motion     | Animation library for React           |
+| EmailJS           | Form handling and email integration   |
+| Aceternity UI     | Custom UI components                  |
+| Magic UI          | Prebuilt UI elements and design extras|
+
+---
+
+## 📁 Project Structure
+
+```bash
 ├── public/
-│   ├── assets/             # Imagens, texturas e modelos
-│   ├── models/             # Modelo 3D do astronauta
+│   ├── assets/             # Images, textures, models
+│   ├── models/             # 3D Astronaut model
 │   └── vite.svg
 ├── src/
-│   ├── components/         # Componentes reutilizáveis
-│   ├── constants/          # Dados reutilizáveis
-│   ├── sections/           # Seções do portfólio (Hero, Sobre, etc.)
-│   ├── App.jsx             # Arquivo principal da aplicação
-│   ├── index.css           # Estilos do Tailwind
-│   └── main.jsx            # Ponto de entrada
+│   ├── components/         # Reusable components
+│   ├── constants/          # Reusable datas
+│   ├── sections/           # Portfolio sections (Hero, About, etc.)
+│   ├── App.jsx             # Main app file
+│   ├── index.css           # Tailwind css
+│   └── main.jsx            # Entry point
 ├── tailwind.config.js
 └── vite.config.js
+```
 
+---
+
+## 🚀 Getting Started
+1. Clone the Repository
+```bash
+git clone https://github.com/Ali-Sanati/Portfolio.git  
+cd Portfolio
+```
+2. Install Dependencies
+```bash
+npm install
+```
+3. Run the Development Server
+```bash
+npm run dev
+```
+The app will be available at http://localhost:5173.
+
+---
+
+## 🔗 Assets
+Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip  )
+
+- A beautiful Landing Page
+
+- A fun App Clone (YouTube, Netflix, etc.)
+
+Or another interactive Portfolio
