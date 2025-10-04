@@ -1,14 +1,13 @@
 🚀 Portfólio 3D de Desenvolvedor
-Um portfólio moderno e animado em 3D, desenvolvido com React, Three.js, TailwindCSS e efeitos de movimento — criado para ajudá-lo(a) a se destacar e exibir suas habilidades de forma criativa.
+Um portfólio moderno, animado e totalmente em 3D, construído com React, Three.js, TailwindCSS e efeitos de movimento — projetado para ajudar você a se destacar e apresentar suas habilidades de forma criativa e impactante.
 
 ✨ Recursos
-🔥 Elementos visuais em 3D com React Three Fiber e Drei
-⚡ Transições suaves e animações baseadas em rolagem usando Framer Motion
-🎨 Interface limpa e responsiva com TailwindCSS
-💌 Formulário de contato funcional utilizando EmailJS
-🧱 Melhorias visuais com componentes do Aceternity UI e Magic UI
-🚀 Desenvolvimento ultrarrápido com Vite
-
+🔥 Visualizações 3D com React Three Fiber e Drei
+⚡ Transições suaves e animações baseadas em rolagem com Framer Motion
+🎨 Interface limpa, moderna e responsiva usando TailwindCSS
+💌 Formulário de contato funcional integrado com EmailJS
+🧱 Componentes visuais avançados com Aceternity UI e Magic UI
+🚀 Ambiente de desenvolvimento ultrarrápido com Vite
 
 🛠 Tecnologias Utilizadas
 React
