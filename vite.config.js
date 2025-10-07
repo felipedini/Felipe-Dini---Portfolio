@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // Necessário para deploy em GitHub Pages (project pages)
-  base: "/Felipe-Dini---Portfolio/",
+  // Base dinâmica: usa VITE_BASE quando disponível (ex.: Vercel),
+  // senão mantém base do GitHub Pages.
+  base: process.env.VITE_BASE ?? "/",
 });
