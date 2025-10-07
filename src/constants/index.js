@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const myProjects = [
   {
     id: 1,
@@ -9,22 +11,22 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/port1.png",
+    image: `${BASE}assets/projects/port1.png`,
     tags: [
       {
         id: 1,
         name: "Excel",
-        path: "/assets/logos/excel.svg",
+        path: `${BASE}assets/logos/excel.svg`,
       },
       {
         id: 2,
         name: "VBA",
-        path: "/assets/logos/vba.svg",
+        path: `${BASE}assets/logos/vba.svg`,
       },
       {
         id: 3,
         name: "Authentication",
-        path: "/assets/logos/authentication.svg",
+        path: `${BASE}assets/logos/authentication.svg`,
       },
     ],
   },
@@ -38,27 +40,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/Maquinas.jpg",
+    image: `${BASE}assets/projects/Maquinas.jpg`,
     tags: [
       {
         id: 1,
         name: "HTML",
-        path: "/assets/logos/html.svg",
+        path: `${BASE}assets/logos/html.svg`,
       },
       {
         id: 2,
         name: "CSS",
-        path: "/assets/logos/css.svg",
+        path: `${BASE}assets/logos/css.svg`,
       },
       {
         id: 3,
         name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        path: `${BASE}assets/logos/javascript.svg`,
       },
       {
         id: 4,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: `${BASE}assets/logos/python.svg`,
       },
     ],
   },
@@ -67,17 +69,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "https://wa.me/5511920424735?text=Olá! Vi seu portfólio e gostaria de conversar.",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: `${BASE}assets/socials/whatsApp.svg`,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/felipe-dini-8a357b169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${BASE}assets/socials/linkedIn.svg`,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/felipehenrydini/",
-    icon: "/assets/socials/instagram.svg",
+    icon: `${BASE}assets/socials/instagram.svg`,
   },
 ];
 
@@ -92,7 +94,7 @@ export const experiences = [
   },
   {
     title: "Luft Logistics",
-    job: "Assistente operacional ",
+    job: "Assistente de Inventário",
     date: "01/2025 - 05/2025",
     contents: [
       "Cuidei do controle de inventário e estoque com atenção aos detalhes, sempre buscando manter os dados precisos e os produtos bem organizados. Meu dia a dia foi pautado por garantir que cada item estivesse no lugar certo, na hora certa — ajudando a reduzir perdas, evitar falhas e apoiar uma operação mais fluida e confiável.",

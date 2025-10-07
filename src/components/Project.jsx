@@ -31,7 +31,7 @@ const Project = ({
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Leia Mais
-          <img src="assets/arrow-right.svg" className="w-5" />
+      <img src={`${import.meta.env.BASE_URL}assets/arrow-right.svg`} className="w-5" />
         </button>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
